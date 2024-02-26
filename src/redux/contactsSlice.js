@@ -12,7 +12,7 @@ filter:'',
  }
 
 const contactSlice = createSlice({
-    name: "contacts",
+    name: 'contacts',
     initialState: contactsInitialState,
     reducers: {
         addContacts:(state, action) =>{
